@@ -1,5 +1,5 @@
 body {
-  background-color: #e15f41;
+  background-color: #786fa6;
   color: #fff;
   margin: 0;
   padding-top: 25px;
@@ -80,7 +80,7 @@ a {
   margin-right: auto;
   background-color: #262628;
   border-radius: 10px;
-  box-shadow: 0 0 19px #bb462c;
+  box-shadow: 0 0 19px #5f5789;
 }
 
 .input__description {
@@ -93,7 +93,7 @@ a {
 .add__button {
   width: 100px;
   height: 40px;
-  background-color: #e15f41;
+  background-color: #786fa6;
   border: none;
   border-radius: 6px;
   color: #fff;
@@ -104,7 +104,7 @@ a {
 }
 .add__button:hover {
   transform: scale(1.05);
-  background-color: #bb462c;
+  background-color: #5f5789;
 }
 .contact__list {
   width: 704px;
@@ -152,7 +152,7 @@ a {
   top: 10px;
   width: 24px;
   height: 24px;
-  background-color: #e15f41;
+  background-color: #786fa6;
   fill: #fff;
   border: none;
   border-radius: 4px;
@@ -160,5 +160,5 @@ a {
   transition: all 0.2s;
 }
 .delete__button:hover {
-  background-color: #bb462c;
+  background-color: #5f5789;
 }

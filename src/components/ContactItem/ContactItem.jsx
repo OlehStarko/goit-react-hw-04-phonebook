@@ -1,6 +1,7 @@
 import IconButton from '../IconButton/IconButton';
 import { ReactComponent as DeleteIcon } from '../../icons/delete.svg';
 import css from '../css/phonebook.module.css';
+
 const ContactItem = ({ contact, onDeleteContact }) => {
   return (
     <>
