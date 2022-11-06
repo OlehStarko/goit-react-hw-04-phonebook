@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Container from '../components/Container/Container';
 import ContactForm from '../components/ContactForm/ContactForm';
+import { v4 as uuid } from 'uuid';
 import Filter from '../components/Filter/Filter';
 import ContactList from '../components/ContactList/ContactList';
 import css from './css/phonebook.module.css';
@@ -25,7 +26,7 @@ export default function App() {
 
   const addContact = ({ name, number }) => {
     const contact = {
-      id: 'uuidv4',
+      id: uuid(),
       name,
       number,
     };
